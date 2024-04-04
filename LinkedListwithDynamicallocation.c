@@ -24,7 +24,7 @@ struct Node* previousptr;
 uint8_t nodeFound; // a char variable that we will use to denote when we find a node that we're searchig for
 
 
-int main () 
+void main (void) 
 {
 
 struct Node* headNode = NULL; // first item of a Linked list
@@ -140,24 +140,7 @@ currentptr = currentptr -> Nextptr;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
+while(1);
 
 
 
@@ -174,4 +157,12 @@ currentptr = currentptr -> Nextptr;
 
 
 }
+
+
+
+
+
+
+
+
 
